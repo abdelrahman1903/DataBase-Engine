@@ -1,0 +1,8 @@
+Shop,Branch_id,java.lang.Integer,True,null,null
+Shop,B_Address,java.lang.String,False,null,null
+City,Name,java.lang.String,True,null,null
+City,Population,java.lang.Integer,False,null,null
+Student,SGPA,java.lang.Double,False,gpaIndex,B+tree
+Student,Sname,java.lang.String,False,nameIndex,B+tree
+Student,Major,java.lang.String,False,null,null
+Student,SID,java.lang.Integer,True,idIndex,B+tree
